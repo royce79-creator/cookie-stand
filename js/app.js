@@ -135,3 +135,4 @@ let lima = {
   }
 }; 
 lima.salesDaily();
+//New changes
