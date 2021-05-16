@@ -1,1 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+  background-color: lightgray;
+}
+#seattle-list {
+  color: whitesmoke;
+  margin: 20px;
+  background-color: rgb(47, 255, 234);
+  padding: 20px;
+  inline-block: left;
+}
+
+#tokyo-list {
+  margin: 20px;
+  position: center;
+}
+
+#dubai-list {
+  margin: 20px;
+}
+
+#paris-list {
+  margin: 20px;
+}
+
+#lima-list {
+  margin: 20px;
+}
+
+
