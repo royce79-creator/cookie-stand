@@ -32,7 +32,7 @@ this.render = function() {
   tableData.textContent = this.cityName;
   tableRow.appendChild(tableData);
   for (let i =0; i < this.cookiesPerHourArray.length; i++) {
-    hoursArray[i]
+    hoursArray
   tbody.appendChild(tr);
   tbody.appendChild(td);
 }
