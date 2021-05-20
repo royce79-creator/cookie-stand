@@ -2,29 +2,26 @@
 body {
   background-color: lightgray;
 }
-#seattle-list {
-  color: whitesmoke;
-  margin: 20px;
-  background-color: rgb(47, 255, 234);
-  padding: 20px;
-  inline-block: left;
+
+/* td {
+  padding: 10px;
+  border: 1px solid black;
+} */
+
+table {
+	border-collapse: separate;
+  border-spacing: 5px;
+  border: medium solid goldenrod;
+  margin: 25px auto;
 }
 
-#tokyo-list {
-  margin: 20px;
-  position: center;
+th, td {
+  padding: 10px;
+  border: 1px solid goldenrod;
+  border-radius: 5px;;
 }
 
-#dubai-list {
-  margin: 20px;
+th {
+  background-color: rgba(218, 165, 32, .5);
+  font-weight: bold;
 }
-
-#paris-list {
-  margin: 20px;
-}
-
-#lima-list {
-  margin: 20px;
-}
-
-
