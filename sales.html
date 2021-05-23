@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h2>Cookie Sales!</h2>
+  </header>
+  <main id="container">
+    <form id="cookie-form">
+      <fieldset>
+        <legend>Orders for Salmon Cookies</legend>
+        <label>Store Name
+          <input type="text" required name="storename">
+        </label>
+        
+        <label> Store Minimum
+          <input type="number" required name="storeminimum">
+        </label>
+
+        <label> Store Maximum
+          <input type="number" required name="storemaximum">
+        </label>
+
+        <label> Store Average
+          <input type="number" step="any" required name="storeaverage">
+        </label>
+
+        <button type="submit">Submit The New Store</button>
+      </fieldset>
+    </form>
+    <article id=''></article>
+    <table>
+      <thead id='table-head'></thead>
+      <tbody id='sales-table'></tbody>
+      <tfoot></tfoot>
+    </table>
+    <footer>&#169 CodeFellows</footer>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
